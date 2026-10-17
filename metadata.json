@@ -1,0 +1,6 @@
+{
+  "name": "Maison Élément — Curated Architectural Living",
+  "description": "Bespoke Nordic & Japandi architectural furniture, shoppable curated lookbooks, and 3D spatial planning atelier.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

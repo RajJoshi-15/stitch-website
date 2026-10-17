@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fbf9f5;
+    color: #1b1c1a;
+    font-family: var(--font-sans);
+  }
+
+  /* Hide default scrollbars for sleek architectural aesthetic */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #fbf9f5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cdc5bc;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7c766e;
+  }
+}
+
+.font-serif-display {
+  font-family: var(--font-serif);
+}
+
+.font-sans-body {
+  font-family: var(--font-sans);
+}
+
+/* Material Symbols alignment helper */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.material-symbols-outlined.fill-1 {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
